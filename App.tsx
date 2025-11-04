@@ -1,17 +1,15 @@
 import React from "react";
-import ScrollViewExample from "./src/components/ScrollViewExample";
-import SectionListExample from "./src/components/SectionListExample";
-import FlatListExample from "./src/components/FlatListExample";
-import RefreshControlExample from "./src/components/RefreshControlExample";
+import AdvancedTouches from "./src/components/AdvancedTouches";
+import FeedBackButtons from "./src/components/FeedBackButtons";
+import SimpleButtons from "./src/components/SimpleButtons";
 
 
 export default function App() {
   return (
     <>
-      {/* <ScrollViewExample /> */}
-      {/* <SectionListExample /> */}
-      <FlatListExample />
-      {/* <RefreshControlExample /> */}
+      <AdvancedTouches />
+      <FeedBackButtons />
+      <SimpleButtons />
     </>
   )
 }
